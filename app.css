@@ -40,10 +40,19 @@ body {
     text-align: center;
 }
 
+<<<<<<< HEAD
 }
+||||||| d5f7fb5
+=======
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
+
+>>>>>>> 8ea2c2d9688f7c46198e9204cdb0140c5bc2fa1a
 h2 {
     margin: 0;
     transform: rotate(-45deg);
+    transition: transform 0.5s;
     text-shadow: 0 0 5px #01579b;
 }
 
